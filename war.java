@@ -70,6 +70,7 @@ public class war {
             keepPlaying = scanner.nextLine();
         }
     }
+    scanner.close();
 
     public static void printAsciiEval(String computerCard, String userCard) {
 
